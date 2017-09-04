@@ -15,10 +15,10 @@ True when attribute is present, otherwise false.
 
 Example:
 ```HTML
-<p class="test">something</p>
+<p id="test" class="test">something</p>
 ```
 ``` JAVASCRIPT
-$("#p").hasAttr("class")
+$("#test").hasAttr("class")
 ```
 returns true
 
@@ -31,10 +31,10 @@ True when attribute is present, otherwise false.
 
 Example:
 ```HTML
-<p data-test>something</p>
+<p id="test" data-test>something</p>
 ```
 ``` JAVASCRIPT
-$("#p").hasData("test")
+$("#test").hasData("test")
 ```
 returns true
 

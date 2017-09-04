@@ -1,6 +1,6 @@
 {
   "name": "has-attr",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Checks wheter attribute is present in given object",
   "main": "jquery.hasAttr.js",
   "scripts": {
