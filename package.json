@@ -1,0 +1,28 @@
+{
+  "name": "has-attr",
+  "version": "1.0.0",
+  "description": "Checks wheter attribute is present in given object",
+  "main": "jquery.hasAttr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shoter/hasAttr.git"
+  },
+  "keywords": [
+    "jquery",
+    "attribute",
+    "data",
+    "search",
+    "select",
+    "match",
+    "has"
+  ],
+  "author": "Damian Laczak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shoter/hasAttr/issues"
+  },
+  "homepage": "https://github.com/shoter/hasAttr#readme"
+}
