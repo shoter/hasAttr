@@ -1,6 +1,6 @@
 {
   "name": "has-attr",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Checks wheter attribute is present in given object",
   "main": "jquery.hasAttr.js",
   "scripts": {
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shoter/hasAttr.git"
+  },
+  "peerDependencies": {
+    "jquery": ">=1.6.0"
   },
   "keywords": [
     "jquery",
