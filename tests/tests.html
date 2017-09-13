@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>QUnit Example</title>
+  <link rel="stylesheet" href="qunit.css">
+</head>
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture"></div>
+
+  <h1>Test website</h1>
+  <div id="website">
+    <p id="noAttributes">No attributes paragraph</p>
+	<p id="attributeNoValue" draggable>draggable no value paragraph</p>
+	<p id="attributeWithValue" class="test">class attribute with value</p>
+	
+	<p id="dataAttributeNoValue" data-test>data without value</p>
+	<p id="dataAttributeValue" data-test="value">data with value</p>
+	<p id="dataCamelCaseNoValue" data-testAttribute>data camel case no value</p>
+	<p id="dataCamelCaseValue" data-testAttribute="value">data camel case value</p>
+  </div>
+  
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="qunit.js"></script>
+  <script src="..\jquery.hasAttr.js"></script>
+  <script src="tests.js"></script>
+
+</body>
+</html>
